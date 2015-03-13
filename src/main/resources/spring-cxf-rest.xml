@@ -18,7 +18,7 @@
 
 
     <jaxrs:server id="rutaServer" address="/">
-        <jaxrs:serviceBeans>
+         <jaxrs:serviceBeans>
             <ref bean="trackPositionService"/>
         </jaxrs:serviceBeans>
         <jaxrs:extensionMappings>
